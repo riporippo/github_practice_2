@@ -1,6 +1,5 @@
 def add_numbers(num1, num2):
-	# TODO: 足し算を実装
-	return None
+	return num1 + num2
 
 def multiply_numbers(num1, num2):
 	# TODO: 掛け算を実装
