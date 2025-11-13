@@ -9,7 +9,7 @@ def subtract_numbers(num1, num2):
 
 def divide_numbers(num1, num2):
 	if num2 == 0:
-		raise ZeroDivisionError("0で割ることはできません。")
+		raise ZeroDivisionError("0で割ることはできません!")
 	return num1 / num2
 
 def average_numbers(num1, num2):
