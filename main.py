@@ -4,7 +4,8 @@ def add_numbers(num1, num2):
 
 def multiply_numbers(num1, num2):
 	# TODO: 掛け算の実装
-	return None
+	result = num1 * num2
+	return result
 
 def subtract_numbers(num1, num2):
 	# TODO: 引き算の実装
