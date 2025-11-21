@@ -1,10 +1,11 @@
 def add_numbers(num1, num2):
 	# TODO: 足し算の実装
-	return None
+	return num1 + num2
 
 def multiply_numbers(num1, num2):
 	# TODO: 掛け算の実装
-	return None
+	result = num1 * num2
+	return result
 
 def subtract_numbers(num1, num2):
 	# TODO: 引き算の実装
@@ -14,11 +15,12 @@ def divide_numbers(num1, num2):
 	# TODO: 割り算の実装
 	if num2 == 0:
 		raise ZeroDivisionError("0で割ることはできません!")
-	return None
+	result = num1 / num2
+	return result
 
 def average_numbers(num1, num2):
 	# TODO: 平均の実装 
-	return None
+	return (num1 + num2) / 2
 
 def check_choice(choice):
 	if choice not in ['1', '2', '3', '4']:
