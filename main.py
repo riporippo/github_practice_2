@@ -19,7 +19,7 @@ def divide_numbers(num1, num2):
 
 def average_numbers(num1, num2):
 	# TODO: 平均の実装 
-	return None
+	return (num1 + num2) / 2
 
 def check_choice(choice):
 	if choice not in ['1', '2', '3', '4']:
