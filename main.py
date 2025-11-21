@@ -25,7 +25,7 @@ def average_numbers(num1, num2):
 	return re
 
 def check_choice(choice):
-	if choice not in ['1', '2', '3', '4']:
+	if choice not in ['1', '2', '3', '4','5']:
 		raise ValueError("無効な選択です。1から5の数字を選んでください。")
 
 def calcuate(choice, num1, num2):
