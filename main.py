@@ -15,7 +15,8 @@ def divide_numbers(num1, num2):
 	# TODO: 割り算の実装
 	if num2 == 0:
 		raise ZeroDivisionError("0で割ることはできません!")
-	return None
+	result = num1 / num2
+	return result
 
 def average_numbers(num1, num2):
 	# TODO: 平均の実装 
